@@ -1,0 +1,17 @@
+{
+  "@@locale": "en",
+
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "notify":"You have {value} Message",
+  "@notify":{
+    "placeholders":{
+        "value":{
+           "type": "int",
+           "format": "compactLong"
+        }
+    }
+  }
+}
